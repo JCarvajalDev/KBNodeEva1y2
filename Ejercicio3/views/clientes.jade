@@ -1,0 +1,23 @@
+extends layout 
+
+block content 
+    h1=title 
+    p Listado de #{title}
+    ul 
+    div 
+        table 
+            thead 
+                tr 
+                    th Rut
+                    th Nombre 
+                    th Apellido Paterno
+                    th Apellido Materno
+                    th Edad
+            tbody 
+                each item in datos 
+                    tr 
+                        td #{item.rut}
+                        td #{item.nombre}
+                        td #{item.apellidoPaterno}
+                        td #{item.apellidoMaterno}
+                        td #{item.edad}

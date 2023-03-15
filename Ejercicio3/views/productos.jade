@@ -1,0 +1,19 @@
+extends layout 
+
+block content 
+    h1=title 
+    p Listado de #{title}
+    ul 
+    div 
+        table 
+            thead 
+                tr 
+                    th codigo
+                    th nombre 
+                    th precio
+            tbody 
+                each item in datos 
+                    tr 
+                        td #{item.codigo}
+                        td #{item.nombre}
+                        td #{item.precio}

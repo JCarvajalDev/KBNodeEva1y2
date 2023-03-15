@@ -1,0 +1,7 @@
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+/Ejercicio1/node_modules
+/Ejercicio2/node_modules
+/Ejercicio3/node_modules
